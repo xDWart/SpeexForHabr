@@ -1,0 +1,1321 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>4232743259</fileChecksum>
+  <configuration>
+    <name>SpeexForHabr</name>
+    <outputs>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\system_stm32f1xx.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_it.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\main.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Exe\SpeexForHabr.out</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_msp.o</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\include\speex\speex_buffer.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\fixed_generic.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\config.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\nb_celp.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\iar\ltp_cortexM3.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\include\speex\speex_config_types.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\include\speex\speex.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\include\speex\speex_callbacks.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\vq.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\include\speex\speex_types.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\vbr.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\include\speex\speex_header.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\filters.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\quant_lsp.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\cb_search.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\sb_celp.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c</file>
+      <file>$PROJ_DIR$\..\Src\stm32f1xx_it.c</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\system_stm32f1xx.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\iar\startup_stm32f103xb.s</file>
+      <file>$PROJ_DIR$\..\Src\stm32f1xx_hal_msp.c</file>
+      <file>$PROJ_DIR$\..\Src\main.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\speexx.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\speexx.o</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\stm32f103xb_flash.icf</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\SpeexForHabr\List\SpeexForHabr.map</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\window.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\lsp.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\speex_header.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\speex.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\speex_callbacks.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\lsp_tables_nb.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\gain_table.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\iar\vq_cortexm3.s</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\iar\ltp_cortexM3.s</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\high_lsp_tables.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\lpc.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\gain_table_lbr.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\cb_search.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\filters.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\ltp.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\nb_celp.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\modes.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\quant_lsp.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\vq.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\iar\filters_cortexM3.s</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\bits.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\buffer.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\exc_10_32_table.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\buffer.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\bits.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\exc_10_32_table.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\os_support.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\arch.h</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\cb_search.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\cb_search.pbi</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\cb_search_cortexM3.h</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\speexx.__cstat.et</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\SpeexForHabr.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\core_cm3.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_pwr.pbi</file>
+      <file>$PROJ_DIR$\..\Inc\stm32f1xx_hal_conf.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h</file>
+      <file>$PROJ_DIR$\..\Inc\mxconstants.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_tim_ex.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_rcc_ex.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_tim.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_rcc.pbi</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_gpio_ex.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_gpio.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_flash_ex.pbi</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_flash.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_cortex.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_adc.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_adc_ex.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_dma.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_pwr.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_adc_ex.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_tim_ex.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_rcc.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_tim.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_cortex.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_rcc_ex.o</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_msp.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\system_stm32f1xx.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_it.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_adc.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\startup_stm32f103xb.o</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_flash.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_gpio_ex.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_dma.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_flash_ex.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_gpio.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\Src\speexx.c</file>
+      <file>$PROJ_DIR$\..\Src\speexx.h</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\speex.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\speex_callbacks.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\filters.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\bits.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\exc_10_32_table.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\window.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\speex_header.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\high_lsp_tables.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\gain_table_lbr.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\lpc.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\speex_header.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\lpc.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\quant_lsp.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\gain_table_lbr.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\speex.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\lsp.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\lsp_tables_nb.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\speex_callbacks.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\high_lsp_tables.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\gain_table.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\speex_callbacks.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\vq.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\nb_celp.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\quant_lsp.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\window.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\lsp.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\speex.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\ltp.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\lpc.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\gain_table.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\high_lsp_tables.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\modes.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\speex_header.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\lsp_tables_nb.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\buffer.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\gain_table_lbr.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\cb_search.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\window.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\lsp.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\lsp_tables_nb.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\ltp.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\ltp.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\vq.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\ltp_cortexM3.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\gain_table.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\vq.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\quant_lsp.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\filters_cortexM3.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\filters.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_tim_ex.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\vq_cortexm3.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\modes.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\modes.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\filters.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\nb_celp.pbi</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_tim.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_rcc_ex.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\nb_celp.o</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_rcc.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_adc_ex.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_pwr.__cstat.et</file>
+      <file>$PROJ_DIR$\..\Inc\stm32f1xx_it.h</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_flash_ex.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_it.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_adc.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_dma.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_gpio.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_flash.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_gpio_ex.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_cortex.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\system_stm32f1xx.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\stm32f1xx_hal_msp.__cstat.et</file>
+      <file>$PROJ_DIR$\SpeexForHabr\Obj\main.__cstat.et</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\lpc.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\ltp.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\iar\filters_cortexM3.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\include\speex\speex_bits.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\bits.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\buffer.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\exc_10_32_table.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\lsp.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\stack_alloc.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\math_approx.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\modes.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\SpeexForHabr\Exe\SpeexForHabr.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 46 71 72 82 73 208 207 204 173 178 171 175 176 201 203 2 211 217 172 174 177 166 44 146 127 129 130 128 152 150 154 155 151 4 132 136 139 137 134 1 0 205 210 165 45 48 49 47</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 229</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 96 98 90 102 125 114 89 123 104 101 119 100 91 88 157 109 122 156 116 120 121 92 99 153 103 117 147 86 118 110 124 148 115 149 97 93 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96 153 104 101 102 121 88 147 114 120 123 116 119 157 156 98 90 117 86 110 124 115 97 93 103 125 92 94 89 109 100 91 122 99 118 149 148 140</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 228</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 96 98 90 102 125 114 89 123 104 101 119 100 91 88 157 109 122 156 116 120 121 92 99 153 103 117 147 86 118 110 124 148 115 149 97 93 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116 114 120 119 156 102 123 157 101 96 121 104 88 153 98 90 117 86 110 124 115 97 93 103 125 92 94 89 109 100 91 122 99 118 149 147 148 140</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 220</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 127</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 135</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 96 98 90 102 125 114 89 123 104 101 119 100 91 88 157 109 122 156 116 120 121 92 99 153 103 117 147 86 118 110 124 148 115 149 97 93 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 101 104 110 92 94 102 98 117 115 89 109 91 90 86 124 97 103 125 123 100 122 99 96 121 114 120 116 119 88 157 156 153 118 149 147 148 140</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 230</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 128</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 96 98 90 102 125 114 89 123 104 101 119 100 91 88 157 109 122 156 116 120 121 92 99 153 103 117 147 86 118 110 124 148 115 149 97 93 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157 101 123 102 114 120 116 119 156 96 121 104 88 153 147 98 90 117 86 110 124 115 97 93 103 125 92 94 89 109 100 91 122 99 118 149 148 140</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 227</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 155</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 96 98 90 102 125 114 89 123 104 101 119 100 91 88 157 109 122 156 116 120 121 92 99 153 103 117 147 86 118 110 124 148 115 149 97 93 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101 157 123 102 114 120 116 119 156 96 121 104 88 153 98 90 117 86 110 124 115 97 93 103 125 92 94 89 109 100 91 122 99 118 149 147 148 140</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 223</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 96 98 90 102 125 114 89 123 104 101 119 100 91 88 157 109 122 156 116 120 121 92 99 153 103 117 147 86 118 110 124 148 115 149 97 93 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 96 153 102 121 88 101 114 120 123 116 119 157 156 98 90 117 86 110 124 115 97 93 103 125 92 94 89 109 100 91 122 99 118 149 147 148 140</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 221</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 96 98 90 102 125 114 89 123 104 101 119 100 91 88 157 109 122 156 116 120 121 92 99 153 103 117 147 86 118 110 124 148 115 149 97 93 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110 92 94 104 93 101 102 98 117 115 89 109 91 90 86 124 97 103 125 123 100 122 99 96 121 114 120 116 119 88 157 156 153 118 149 147 148 140</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 219</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 130</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 96 98 90 102 125 114 89 123 104 101 119 100 91 88 157 109 122 156 116 120 121 92 99 153 103 117 147 86 118 110 124 148 115 149 97 93 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123 157 101 102 114 120 116 119 156 96 121 104 88 153 98 90 117 86 110 124 115 97 93 103 125 92 94 89 109 100 91 122 99 118 149 147 148 140</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 218</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 136</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 96 98 90 102 125 114 89 123 104 101 119 100 91 88 157 109 122 156 116 120 121 92 99 153 103 117 147 86 118 110 124 148 115 149 97 93 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 122 124 100 99 102 86 97 103 125 123 104 98 117 110 115 93 92 94 89 109 101 91 96 121 114 120 116 119 88 157 156 153 118 149 147 148 140</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 216</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 139</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 96 98 90 102 125 114 89 123 104 101 119 100 91 88 157 109 122 156 116 120 121 92 99 153 103 117 147 86 118 110 124 148 115 149 97 93 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 101 121 88 102 96 153 114 120 123 116 119 157 156 98 90 117 86 110 124 115 97 93 103 125 92 94 89 109 100 91 122 99 118 149 147 148 140</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 226</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 152</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 131</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 96 98 90 102 125 114 89 123 104 101 119 100 91 88 157 109 122 156 116 120 121 92 99 153 103 117 147 86 118 110 124 148 115 149 97 93 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103 104 97 86 125 123 122 102 90 124 100 99 98 117 110 115 93 92 94 89 109 101 91 96 121 114 120 116 119 88 157 156 153 118 149 147 148 140</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 215</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 96 98 90 102 125 114 89 123 104 101 119 100 91 88 157 109 122 156 116 120 121 92 99 153 103 117 147 86 118 110 124 148 115 149 97 93 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157 123 118 96 114 120 116 119 156 149 102 121 104 88 101 98 90 117 86 110 124 115 97 93 103 125 92 94 89 109 100 91 122 99 153 147 148 140</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\stm32f1xx_it.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 224</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 96 98 90 102 125 114 89 123 104 101 119 100 91 88 157 109 122 156 116 120 121 92 99 153 103 117 147 86 118 110 124 148 115 149 97 93 140 222 159 7 11 237 14 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102 104 7 153 121 88 101 140 14 222 96 114 120 123 116 119 157 156 148 125 159 98 90 117 86 110 124 115 97 93 103 92 94 89 109 100 91 122 99 147 10 118 149 11 237</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\system_stm32f1xx.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 231</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 142</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 125 114 89 123 104 101 119 100 91 88 157 109 122 156 116 120 94 96 98 90 102 121 92 99 153 103 117 147 86 118 110 124 148 115 149 97 93 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120 156 119 114 116 121 102 123 157 96 104 88 101 99 94 89 109 100 91 122 98 90 117 86 110 124 115 97 93 103 125 92 153 118 149 147 148 140</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 225</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 96 98 90 102 125 114 89 123 104 101 119 100 91 88 157 109 122 156 116 120 121 92 99 153 103 117 147 86 118 110 124 148 115 149 97 93 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119 120 156 114 116 102 123 157 96 121 104 88 101 99 98 90 117 86 110 124 115 97 93 103 125 92 94 89 109 100 91 122 118 149 153 147 148 140</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 209</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 134</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 96 98 90 102 125 114 89 123 104 101 119 100 91 88 157 109 122 156 116 120 121 92 99 153 103 117 147 86 118 110 124 148 115 149 97 93 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157 101 123 102 114 120 116 119 156 96 121 104 88 153 98 90 117 86 110 124 115 97 93 103 125 92 94 89 109 100 91 122 99 118 149 147 148 140</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\iar\startup_stm32f103xb.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 146</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\stm32f1xx_hal_msp.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 232</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 96 98 90 102 125 114 89 123 104 101 119 100 91 88 157 109 122 156 116 120 121 92 99 153 103 117 147 86 118 110 124 148 115 149 97 93 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 101 147 121 88 102 96 153 114 120 123 116 119 157 156 98 90 117 86 110 124 115 97 93 103 125 92 94 89 109 100 91 122 99 118 149 148 140</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\main.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 233</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 96 98 90 102 125 114 89 123 104 101 119 100 91 88 157 109 122 156 116 120 121 92 99 153 103 117 147 86 118 110 124 148 115 149 97 93 140 159 7 11 237 14 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125 123 86 122 7 97 103 104 148 90 124 100 99 14 98 117 110 115 93 102 92 94 89 109 101 91 140 159 96 121 114 120 116 119 88 157 156 153 147 10 118 149 11 237</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\window.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 184</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 165</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 197</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 81 14 10 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 14 6 7 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\lsp.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 185</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 40 104 41 101 119 100 91 88 157 42 241 81 14 10 6 242 243</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 242 14 40 42 100 6 7 241 243 41 91 101 119 88 157 81 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\speex_header.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 192</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 166</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 81 14 10 6 16 11 237 79 77 104 101 119 100 91 88 157 99 78 92 153 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88 101 11 10 14 92 157 99 81 7 16 79 6 237 77 80 104 78 119 153 100 91</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\speex.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 186</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 174</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 160</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 244 11 237 14 10 81 6 40 104 41 101 119 100 91 88 157 42 79 77 99 78 92 153 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 237 99 14 79 6 41 101 104 91 244 100 92 7 40 11 81 10 42 119 88 157 77 80 78 153</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\speex_callbacks.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 180</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 177</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 12 11 237 14 10 81 6 79 77 104 101 119 100 91 88 157 99 78 92 153 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 88 11 101 14 92 79 104 157 99 12 237 7 81 10 77 80 78 119 153 100 91</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\lsp_tables_nb.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 193</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 176</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 199</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\gain_table.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 189</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 204</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\iar\vq_cortexm3.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 210</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\iar\ltp_cortexM3.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 203</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\high_lsp_tables.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 190</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 167</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\lpc.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 188</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 169</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 234 81 14 10 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 234 81 14 6 7 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\gain_table_lbr.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 195</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 173</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\cb_search.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 196</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 19 237 81 14 10 6 17 242 13 243 79 77 104 101 119 100 91 88 157 99 78 92 153 80 84</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88 80 81 79 99 101 242 19 14 6 77 7 104 78 119 157 153 17 13 243 84 237 10 92 100 91</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\filters.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 162</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 208</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 17 81 14 10 6 242 243 235 237 40 104 41 101 119 100 91 88 157 42 236</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 88 81 236 14 237 101 17 235 41 7 242 243 40 10 104 42 119 157 100 91</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\ltp.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 187</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 201</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 200</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 40 104 41 101 119 100 91 88 157 42 235 237 81 14 10 6 242 17 243 79 77 99 78 92 153 80 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79 237 242 9 41 91 10 99 40 101 104 7 235 17 243 42 100 81 92 119 88 157 14 6 77 80 78 153</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\nb_celp.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 182</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 217</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 214</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 40 104 41 101 119 100 91 88 157 42 8 244 11 237 14 10 81 6 12 15 17 234 241 235 18 19 242 13 243 79 77 99 78 92 153 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79 244 80 101 19 119 153 234 237 41 6 99 40 235 242 81 157 17 11 14 104 7 8 241 18 13 15 243 12 42 88 77 78 100 91 10 92</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\modes.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 191</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 211</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 212</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 244 11 237 14 10 81 6 235 18 19 20 8 12 15 17 40 104 41 101 119 100 91 88 157 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 237 244 15 6 18 11 14 41 20 40 81 8 101 104 91 7 235 19 10 12 17 42 100 119 88 157</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\quant_lsp.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 183</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 172</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 206</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 18 237 81 14 10 6 79 77 104 101 119 100 91 88 157 99 78 92 153 80 40 41 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 157 99 40 88 101 18 81 237 77 104 79 14 6 80 78 119 153 41 10 92 100 91 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\vq.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 181</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 205</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 202</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 13 81 14 10 6 242</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13 81 14 6 7 10 242</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\iar\filters_cortexM3.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 207</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\speexx.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 159 7 11 237 14 10 94 96 98 90 102 125 114 89 123 104 101 119 100 91 88 157 109 122 156 116 120 121 92 99 153 103 117 147 86 118 110 124 148 115 149 97 93 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121 88 7 14 104 101 102 10 96 153 94 114 120 123 116 119 157 156 11 237 98 90 117 86 110 124 115 97 93 103 125 92 89 109 100 91 122 99 118 149 159 147 148 140</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 3 50</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\bits.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 163</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 237 81 14 10 6 79 77 104 101 119 100 91 88 157 99 78 92 153 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 101 79 10 100 99 237 92 91 7 81 14 6 77 80 78 119 88 157 153</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\buffer.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 194</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 79 77 104 101 119 100 91 88 157 99 78 92 153 80 81 14 10 6 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 88 91 99 10 92 79 101 100 14 6 7 81 77 80 78 119 157 153 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F10x_Speex_Lib\libspeex\exc_10_32_table.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 164</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+
